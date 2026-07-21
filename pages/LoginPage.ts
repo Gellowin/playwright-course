@@ -2,8 +2,8 @@ import { Page } from '@playwright/test';
 
 export class LoginPage {
     private page: Page;
-    private usernameInput;
-    private passwordInput;
+    private usernameInput: any;
+    private passwordInput: any;
 
     constructor(page: Page) {
         this.page = page;
